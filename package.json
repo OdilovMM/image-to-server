@@ -1,0 +1,31 @@
+{
+  "name": "image-upload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "express-fileupload": "^1.5.1",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "http-status-codes": "^2.3.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "rate-limiter": "^0.2.0",
+    "swagger-ui-express": "^5.0.1",
+    "xss-clean": "^0.1.4",
+    "yamljs": "^0.3.0"
+  }
+}
